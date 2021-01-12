@@ -1,0 +1,48 @@
+{
+  "name": "neal1",
+  "version": "1.0.0",
+  "description": "neal1...",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "aaa": "dir/w",
+    "build": "webpack --config ./webpack.config.js",
+    "devserver": "webpack-dev-server --config ./webpack.config.js",
+    "ming2DevBuild": "webpack --mode development --env NODE_ENV=development --env BUILD_SITE=ming --config ./webpack.config.js",
+    "ming2DevServer": "webpack-dev-server --mode development --env.NODE_ENV=development --env.BUILD_SITE=ming --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kentlin888/neal1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kentlin888/neal1/issues"
+  },
+  "homepage": "https://github.com/kentlin888/neal1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/register": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "html-webpack-plugin": "^4.5.1",
+    "lodash": "^4.17.20",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.12.3",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  }
+}
